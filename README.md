@@ -2,14 +2,6 @@
 
 ---
 
-## 🔗 Quick Links
-
-* **[Experiments Notebook](experiments.ipynb)** - Full experimental workflow
-* **[Baseline Results](results/baseline/)** - Original model performance
-* **[Improved Results](results/improved/)** - Results with my innovation
-
----
-
 ## ✨ Innovation Summary
 
 **I modified the sequence predictor to increased number of layers for expectations seeing the more accurate outcome for the text , images generations(dual generation)**
