@@ -1,1 +1,230 @@
+(1) DNN_PROJECT_BI(GRU)_one_directional.ipynb
 
+Final Loss: 4.3577
+
+Hiperparameters:
+
+ -Optimizer: Adam
+
+ -Loss functions: MSELoss, L1Loss
+
+ -Learning rate: 0.001
+
+ -Loss composition: loss = loss_im + loss_text + 0.5 * loss_context
+
+ -Epochs: 5
+
+ -GRU num_layers: 1
+
+Parameters:
+
+ -Trainable parameters (total): 508,948
+
+ -Total parameters: 2,008,878
+
+ -Trainable parameters in visual autoencoder: 503,539
+
+ -Loaded checkpoint (text autoencoder): epoch 15
+
+ -Non-trainable parameters: 1,499,930
+
+#================= -------------------  =================#
+
+(2) DNN_PROJECT_BI(GRU).ipynb
+
+Final Loss: 4.3626
+
+Hiperparameters:
+
+ -Optimizer: Adam
+
+ -Loss: MSELoss, L1Loss
+
+ -Learning rate: 0.001
+
+ -Loss composition: loss = loss_im + loss_text + 0.5 * loss_context
+
+ -Epochs: 10
+
+ -GRU num_layers: 1
+
+ -Group Normalization: (4,16), (4,32), (8,64)
+
+Parameters:
+
+(identical to Exp. 1)
+
+ -Trainable parameters (total): 508,948
+
+ -Total parameters: 2,008,878
+
+ -Trainable parameters in visual autoencoder: 503,539
+
+ -Text autoencoder checkpoint: non-trainable 1,499,930
+ 
+#================= -------------------  =================#
+
+(3) Sequence prediction – num_layers, dropout, learning rate.ipynb
+
+-Final Loss: 4.3602
+
+Hiperparameters:
+
+ -Optimizer: Adam
+
+ -Loss: MSELoss, L1Loss
+
+ -Learning rate: 0.005
+
+ -Loss composition: loss = loss_im + loss_text + 0.5 * loss_context
+
+ -Epochs: 10
+
+ -GRU num_layers: 2
+
+ -GroupNorm: (4,16), (4,32), (8,64)
+
+ -Dropout: 0.01
+
+Parameters:
+
+ -Trainable parameters (total): 508,948
+
+ -Total parameters: 2,008,878
+
+ -Trainable parameters in visual autoencoder: 503,539
+
+Text autoencoder checkpoint: non-trainable 1,499,930
+
+
+#================= -------------------  =================#
+
+(4) Sequence predictor deep tuning – hyperparameter & parameter change.ipynb
+
+Final Loss: 4.3648
+
+Hiperparameters:
+
+ -Optimizer: Adam
+
+ -Loss: MSELoss, L1Loss
+
+ -Learning rate: 0.005
+
+ -Loss composition: loss = loss_im + loss_text + 0.5 * loss_context
+
+ -Epochs: 5
+
+ -GroupNorm: (4,16), (4,32), (8,64)
+
+ -GRU num_layers: 2
+
+ -Dropout: 0.03
+
+Parameters:
+
+ -Trainable parameters (total): 513,748
+
+ -Total parameters: 2,013,678
+
+ -Trainable parameters in visual autoencoder: 503,539
+
+ -Text autoencoder checkpoint: non-trainable 1,499,930
+
+#================= -------------------  =================#
+
+(5) DNN – Project – RESULTS AND VISUAL.ipynb
+
+Final Loss: 4.3678
+
+Hiperparameters:
+
+ -Optimizer: Adam
+
+ -Loss: MSELoss, L1Loss
+
+ -Learning rate: 0.001
+
+ -Loss composition: loss = loss_im + loss_text + 0.5 * loss_context
+
+ -Epochs: 10
+
+ -GroupNorm: (4,16), (8,32), (16,64)
+
+ -GRU num_layers: 2
+
+ -Dropout: 0.01
+
+Parameters:
+
+ -Trainable parameters (total): 513,748
+
+ -Total parameters: 2,013,678
+
+ -Trainable parameters in visual autoencoder: 503,539
+
+#================= -------------------  =================#
+
+(6) Best Results – Visual and Results.ipynb
+
+Final Loss: 4.3523 (one of the best)
+
+Hiperparameters:
+
+ -Optimizer: Adam
+
+ -Loss: MSELoss, L1Loss
+
+ -Learning rate: 0.001
+
+ -Loss composition: loss = loss_im + loss_text + 0.2 * loss_context
+
+ -Epochs: 15
+
+ -GroupNorm: (4,16), (8,32), (16,64)
+
+ -GRU num_layers: 2
+
+ -Dropout: 0.01
+
+Parameters:
+
+ -Trainable parameters (total): 513,748
+
+ -Total parameters: 2,013,678
+
+ -Trainable parameters in visual autoencoder: 503,539
+
+#================= -------------------  =================#
+
+(7) Parameter change.ipynb
+
+Final Loss: 4.3523 (matches best result)
+
+Hiperparameters:
+
+ -Optimizer: Adam
+
+ -Loss: MSELoss, L1Loss
+
+ -Learning rate: 0.001
+
+ -Loss composition: loss = loss_im + loss_text + 0.2 * loss_context
+
+ -Epochs: 10
+
+ -GroupNorm: (4,16), (8,32), (16,64)
+
+ -GRU num_layers: 3
+
+ -Dropout: 0.01
+
+Parameters:
+
+ -Trainable parameters (total): 518,548
+
+ -Total parameters: 2,018,478
+
+ -Trainable parameters in visual autoencoder: 503,539
+
+#================= -------------------  =================#
