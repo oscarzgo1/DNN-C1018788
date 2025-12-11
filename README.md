@@ -8,17 +8,17 @@
 
 ---
 
-## 📊 Key Results
-
+##  Key Results
+--------------------------------------------
 | Metric | Baseline | Improved | Change |
 | :--- | :--- | :--- | :--- |
 | BLEU-1 | 0.44 | 0.55 | **+22.2%** ||
-
+--------------------------------------------
 ---
 
 ##  Most Important Finding
 
-> The innovation reduced repetitive phrases by **35%** (BLEU IMPROVED = +22.2%) in long sequences, as shown in **[this visual visualization](results/comparative_analysis/repetition_analysis.png)**.
+> The innovation reduced repetitive phrases by **35%** (BLEU IMPROVED = +22.2%) in long sequences, as shown in ** in the ''best results -  notebook''**.
 
 ---
 
