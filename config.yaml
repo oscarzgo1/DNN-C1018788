@@ -1,4 +1,5 @@
 (1) DNN_PROJECT_BI(GRU)_one_directional.ipynb
+---------------------------------------------
 
 Final Loss: 4.3577
 
@@ -65,6 +66,7 @@ Parameters:
 #================= -------------------  =================#
 
 (3) Sequence prediction – num_layers, dropout, learning rate.ipynb
+ -----------------------------------------------------------------
 
 -Final Loss: 4.3602
 
@@ -100,6 +102,7 @@ Text autoencoder checkpoint: non-trainable 1,499,930
 #================= -------------------  =================#
 
 (4) Sequence predictor deep tuning – hyperparameter & parameter change.ipynb
+ ---------------------------------------------------------------------------
 
 Final Loss: 4.3648
 
@@ -134,6 +137,7 @@ Parameters:
 #================= -------------------  =================#
 
 (5) DNN – Project – RESULTS AND VISUAL.ipynb
+ -------------------------------------------
 
 Final Loss: 4.3678
 
@@ -166,6 +170,7 @@ Parameters:
 #================= -------------------  =================#
 
 (6) Best Results – Visual and Results.ipynb
+ ------------------------------------------
 
 Final Loss: 4.3523 (one of the best)
 
@@ -198,6 +203,7 @@ Parameters:
 #================= -------------------  =================#
 
 (7) Parameter change.ipynb
+ -------------------------
 
 Final Loss: 4.3523 (matches best result)
 
